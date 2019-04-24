@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+div{
+    background-color: #000;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#tit-menu h1{
+    background-color: #050504;
+    color: #d8b389;
+    font-size: 5ch;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu a{
+    color: #d8b389;
+    padding-left: 2ch;
+    font-size: 100%;
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu{
+    width: 100%;
+    display: inline-block;
+}
+
+.nav-item{
+    margin-left: 60ch;
+}
+
+.nav-cadastro{
+    float: right;
+}
+
+.nav-cadastro a{
+    padding: 2ch;
+}
+
+
+li i:hover{
+    animation: mao-animation 0.4s infinite;
+    animation-delay: 0.2;
+}
+
+
+/* Animação icones */
+
+@keyframes mao-animation {
+  100% {
+    font-size: 2.5ch;
+    transform: rotate(0deg);
+  }
+  75% {
+      font-size: 2.5ch;
+    transform: rotate(-5deg);
+  }
+  50%{
+      font-size: 2.5ch;
+    transform: rotate(-10deg);
+  }
+  25% {
+      font-size: 2.5ch;
+    transform: rotate(10deg);
+  }
+    0%{
+        font-size: 2.5ch;
+        transform: rotate(20deg);
+    }
+}
