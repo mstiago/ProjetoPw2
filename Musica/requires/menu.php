@@ -1,4 +1,4 @@
-          <div id="menu">
+          <div class="menu">
               <div id="tit-menu">
                 <h1>Reis do souls</h1>
               </div>
