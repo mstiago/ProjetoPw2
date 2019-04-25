@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+.navbar{
+    font-family: 'Cutive Mono', monospace;
+    background-color: #050504;;
+}
+
+.nav-item a{
+    color: #d8b389;
+    text-transform: uppercase;
+}
+
+.nav-item a:hover{
+    color: #ffffff;
+}
+
+
+li a:hover{
+    animation: mao-animation 0.4s;
+    animation-delay: 0.2;
+}
+
+@keyframes mao-animation {
+  100% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+  50%{
+    transform: rotate(-2deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+    0%{
+        transform: rotate(2deg);
+    }
+}
