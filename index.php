@@ -6,82 +6,65 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <title>Olá, mundo!</title>
 </head>
 
+<header>
+    <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-gamepad"></i>
+            Soundtrack
+            <i class="fas fa-headphones"></i>
+        </a>
+    </nav>
+</header>
+
 <body>
 
+    <div class="container-fluid cadastro">
+        <form class="d-flex justify-content-center">
 
-    <div class="container-fluid">
+            <div class="col-md-3">
 
-        <div class="container">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite o seu Email" required>
+                </div>
 
-            <nav>
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cadastrar-se</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Entrar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                </ul>
-            </nav>
+                <div class="form-group">
+                    <label for="Usuário">Usuário</label>
+                    <input type="text" class="form-control" id="name" placeholder="Como chamaremos você ?" required>
+                    <small>Essa não será sua forma de login</small>
+                </div>
 
-            <div class="card-body text-dark">
-                <form>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" class="form-control" id="password" placeholder="Digite sua Senha" required>
+                </div>
 
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Digite o seu Email">
-                    </div>
+                <div class="form-group">
+                    <label for="password-repeat">Confirme a senha</label>
+                    <input type="password" class="form-control" id="password-repeat" placeholder="Repita sua senha" required>
+                </div>
 
-                    <div class="form-group">
-                        <label for="Usuário">Usuário</label>
-                        <input type="email" class="form-control" id="email" placeholder="Como chamaremos você ?">
-                        <small>Essa não será sua forma de login</small>
-                    </div>
+                <div class="text-center">
+                    <small>Já tem uma conta ?</small> <a href="#" class="text-sucess"><small>Entrar</small></a>
+                </div>
 
-                    <div class="col">
-                        <div class="row">
-
-                            <div class="form-group">
-                                <label for="password">Senha</label>
-                                <input type="password" class="form-control" id="password" placeholder="Digite sua Senha">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="password-repeat">Repeat password</label>
-                                <input type="password" class="form-control" id="password-repeat" placeholder="Repita sua senha">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col">
-
-                        <div class="row">
-
-                        </div>
-
-                    </div>
-
-                    <button type="submit" class="btn btn-success btn-block btn-lg mb-2">Inscrever-se</button>
-                    <div class="text-center">
-                        Já tem uma conta ? <a href="#">Entrar</a>
-                    </div>
-
-
-                </form>
+                <button type="submit" class="btn btn-outline-dark btn-lg btn-block">Inscrever-se</button>
             </div>
 
-        </div>
+        </form>
     </div>
+
 
 
     <!-- JavaScript (Opcional) -->

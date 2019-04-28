@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+header{
+     font-family: 'Cutive Mono', monospace;
+}
+
+.cadastro{
+    font-size: 110%;
+    font-family: 'Cutive Mono', monospace;
+    padding: 5em;
+}
+
+.form-group input{
+    border-radius: 0.2em;
+}
+
+.text-center a{
+    color: darkgreen;
+}
+
+label, .text-center small, .form-group small{
+    font-size: 1.3ch;
+    font-weight: bold;
+}
+
+form button{
+    background: #fff;
+    outline: 0;
+}
