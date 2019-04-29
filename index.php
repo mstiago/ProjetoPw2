@@ -11,25 +11,32 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <title>Olá, mundo!</title>
+    <title>Soundtrack || Inscrever-se</title>
 </head>
 
 <header>
     <nav class="navbar navbar-light">
-        <a class="navbar-brand" href="#">
-            <i class="fas fa-gamepad"></i>
-            Soundtrack
-            <i class="fas fa-headphones"></i>
-        </a>
+        <div class="logo-cadastro">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-gamepad"></i>
+                Soundtrack
+                <i class="fas fa-headphones"></i>
+            </a>
+        </div>
     </nav>
 </header>
 
 <body>
 
     <div class="container-fluid cadastro">
+
+            <div class="d-flex justify-content-center">
+                <p class="text-justify">Ouça as melhores trilhas sonoras dos jogos</p>
+            </div>
+
         <form class="d-flex justify-content-center">
 
             <div class="col-md-3">
