@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="text-center">
-                    <small>Já tem uma conta ?</small> <a href="#" class="text-sucess"><small>Entrar</small></a>
+                    <small>Já tem uma conta ?</small> <a href="requires/menu.php" class="text-success bg-dark"><small>Entrar</small></a>
                 </div>
 
                 <button type="submit" class="btn btn-outline-dark btn-lg btn-block">Inscrever-se</button>
