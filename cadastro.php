@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cadastro.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -18,59 +18,58 @@
 </head>
 
 <header>
-    <div class="row">
-        <nav class="navbar navbar-light">
-            <div class="logo-cadastro">
-                <a class="navbar-brand" href="#">
-                    <i class="fas fa-gamepad"></i>
-                    Soundtrack
-                    <i class="fas fa-headphones"></i>
-                </a>
-            </div>
-        </nav>
-
-        <form class="d-flex justify-content-end">
-
-            <div class="col">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Digite o seu Email" required>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="form-group">
-                    <label for="password">Senha</label>
-                    <input type="password" class="form-control" id="password" placeholder="Digite sua Senha" required>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="text-center">
-                    <small>Não tem conta ?</small> <a href="requires/menu.php" class="text-success bg-dark"><small>Inscrever-se</small></a>
-                </div>
-
-                <button type="submit" class="btn btn-outline-dark btn-lg btn-block">Entrar</button>
-            </div>
-
-        </form>
-
-    </div>
+    <nav class="navbar navbar-light">
+        <div class="logo-cadastro">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-gamepad"></i>
+                Soundtrack
+                <i class="fas fa-headphones"></i>
+            </a>
+        </div>
+    </nav>
 </header>
 
 <body>
 
     <div class="container-fluid cadastro">
 
-        <div class="container">
-            
-            <div class="row">
-                <i class="fas fa-home"></i> <p>Com o Soundtrack Ouça a sua soundtrack aonde quiser</p>
-                <h1></h1>
-            </div>
-
+        <div class="d-flex justify-content-center">
+            <p class="text-justify">Ouça as melhores trilhas sonoras dos jogos</p>
         </div>
 
+        <form class="d-flex justify-content-center">
+
+            <div class="col-md-3">
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite o seu Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="Usuário">Usuário</label>
+                    <input type="text" class="form-control" id="name" placeholder="Como chamaremos você ?" required>
+                    <small>Essa não será sua forma de login</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" class="form-control" id="password" placeholder="Digite sua Senha" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password-repeat">Confirme a senha</label>
+                    <input type="password" class="form-control" id="password-repeat" placeholder="Repita sua senha" required>
+                </div>
+
+                <div class="text-center">
+                    <small>Já tem uma conta ?</small> <a href="requires/menu.php" class="text-success bg-dark"><small>Entrar</small></a>
+                </div>
+
+                <button type="submit" class="btn btn-outline-dark btn-lg btn-block">Inscrever-se</button>
+            </div>
+
+        </form>
     </div>
 
 

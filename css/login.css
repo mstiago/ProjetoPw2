@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+header {
+    padding: 2ch;
+    font-family: 'Cutive Mono', monospace;
+    border-bottom: solid 1ch; 
+    background: #833ab4;
+    background: linear-gradient(90deg, #c04848 0%, #480048 100%);
+}
+
+.logo-cadastro a{
+    font-family: "Arial",sans-serif;
+    font-size: 3ch;
+    color: #fff !important;
+}
+
+body{
+    background: #100e17 !important;
+}
+
+.text-justify {
+    font-size: 150%;
+    font-family: 'Alfa Slab One', cursive;
+    border-radius: 5ch;
+    padding: 0.8ch;
+    color: #fff;
+    margin-top: -3ch;
+}
+
+.cadastro {
+    font-size: 110%;
+    font-family: 'Cutive Mono', monospace;
+    padding: 5em;
+}
+
+label, .text-center small, .form-group small {
+    font-size: 1.3ch;
+    color: #fff;
+}
+
+.text-center {
+	padding: 0.5ch;
+}
+
+form button {
+    background: #fff;
+    border-radius: 2ch !important;
+    border: solid 0.1em #fff !important;
+    color: #fff !important;
+    
+    background: #833ab4;
+    background: linear-gradient(90deg, #c04848 0%, #480048 100%) !important;
+}
+
+form button:hover{
+    color: #100e17 !important;
+}
+
+.text-success{
+    border-radius: 0.5ch;
+    padding: 0.1ch;
+    color: #fff;
+
+    animation-name: cadastro-botao;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2;
+}
+.text-success:hover{
+    border-radius: 0.5ch;
+    padding: 0.1ch;
+    color: #fff;
+
+    animation-name: cadastro-botao;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2;
+}
+
+.container {
+    padding: 3ch !important;
+}
+
+.card{
+    margin: 3ch;
+    padding: 2ch;
+}
+
+.card-img{
+    border-radius: 50ch !important;
+}
+
+@keyframes cadastro-botao {
+    0% {
+        background: #c04848;
+    }
+
+    5% {
+        background: #480048;
+    }
+
+    10% {
+        background: #a55cd6;
+    }
+
+    15.0% {
+        background: #5c7cd6;
+    }
+
+    20% {
+        background: #d65c7a;
+    }
+
+    25% {
+        background: #81d65c;
+    }
+
+    30.0% {
+        background: #835cd6;
+    }
+
+    35% {
+        background: #685cd6;
+    }
+
+    40% {
+        background: #5c9dd6;
+    }
+
+    45% {
+        background: #5cd670;
+    }
+
+    50% {
+        background: #d6625c;
+    }
+
+    55.0% {
+        background: #d6835c;
+    }
+
+    60.0% {
+       background: #d6605c;
+    }
+
+    65% {
+    background: #be5cd6;
+    }
+
+    70% {
+        background: #5c8dd6;
+    }
+
+    75% {
+        background: #95d65c;
+    }
+
+    80% {
+        background: #d69d5c;
+    }
+
+    85.0% {
+        background: #d65c81;
+    }
+
+    90% {
+        background: #5cd666;
+    }
+
+    95% {
+        background: #d67e5c;
+    }
+
+    100% {
+        background: #64d65c;
+    }
+}
