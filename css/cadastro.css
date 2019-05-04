@@ -4,19 +4,19 @@
 header {
     padding: 2ch;
     font-family: 'Cutive Mono', monospace;
-    border-bottom: solid 1ch; 
-    background: #833ab4;
+    border-bottom: solid 1ch;
     background: linear-gradient(90deg, #c04848 0%, #480048 100%);
 }
 
-.logo-cadastro a{
-    font-family: "Arial",sans-serif;
+.logo-cadastro a {
+    font-family: "Arial", sans-serif;
     font-size: 3ch;
     color: #fff !important;
 }
 
-body{
-    background: #100e17 !important;
+body {
+    background-image: url(../imagens/01.jpg), url("../imagens/02.jpg");
+    transition: 0.5s;
 }
 
 .text-justify {
@@ -28,73 +28,71 @@ body{
     margin-top: -3ch;
 }
 
+.col-md-3 {
+    padding: 3ch !important;
+    margin: -3ch;
+    background: rgba(16, 14, 23, 0.80);
+    border-radius: 0.5ch;
+}
+
 .cadastro {
     font-size: 110%;
     font-family: 'Cutive Mono', monospace;
     padding: 5em;
 }
 
-label, .text-center small, .form-group small {
+label,
+.text-center small,
+.form-group small {
     font-size: 1.3ch;
     color: #fff;
 }
 
 .text-center {
-	padding: 0.5ch;
+    padding: 0.5ch;
 }
 
 form button {
-    background: #fff;
     border-radius: 2ch !important;
-    border: solid 0.1em #fff !important;
     color: #fff !important;
-    
-    background: #833ab4;
     background: linear-gradient(90deg, #c04848 0%, #480048 100%) !important;
 }
 
-form button:hover{
-    border-color: #100e17 !important;
+form button:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
-.text-success{
-    border-radius: 0.5ch;
-    padding: 0.1ch;
+.text-success {
     color: #fff;
-
-    animation-name: entrar;
-    animation-duration: 50s;
-    animation-delay: 0.2;
-}
-.text-success:hover{
-    font-weight: bold;
-    font-size: 2ch;
-    text-decoration: none;
-
-    animation-name: entrar;
-    animation-duration: 50s;
-    animation-delay: 0.2;
 }
 
-@keyframes entrar {
+
+@keyframes fundo {
     0% {
-        background: #c04848;
+        background-image: url(../imagens/05.jpg);
+        background-attachment:scroll;
     }
 
     5% {
-        background: #480048;
+        background-image: url(../imagens/01.jpg);
+        background-attachment:scroll;
     }
 
     10% {
-        background: #a55cd6;
+        background-image: url(../imagens/02.jpg);
+        background-attachment:local;
     }
 
     15.0% {
-        background: #5c7cd6;
+        background-image: url(../imagens/04.jpg);
+        background-attachment:local;
     }
 
     20% {
-        background: #d65c7a;
+        background-image: url(../imagens/01.jpg);
+        background-position: center;
+        background-size: 100% 105%;
     }
 
     25% {
@@ -126,11 +124,11 @@ form button:hover{
     }
 
     60.0% {
-       background: #d6605c;
+        background: #d6605c;
     }
 
     65% {
-    background: #be5cd6;
+        background: #be5cd6;
     }
 
     70% {

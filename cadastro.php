@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="icon" href="imagens/favicon.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -33,43 +34,46 @@
 
     <div class="container-fluid cadastro">
 
-        <div class="d-flex justify-content-center">
-            <p class="text-justify">Ouça as melhores trilhas sonoras dos jogos</p>
-        </div>
+        <div class="form-cadastro">
 
-        <form class="d-flex justify-content-center">
-
-            <div class="col-md-3">
-
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Digite o seu Email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="Usuário">Usuário</label>
-                    <input type="text" class="form-control" id="name" placeholder="Como chamaremos você ?" required>
-                    <small>Essa não será sua forma de login</small>
-                </div>
-
-                <div class="form-group">
-                    <label for="password">Senha</label>
-                    <input type="password" class="form-control" id="password" placeholder="Digite sua Senha" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="password-repeat">Confirme a senha</label>
-                    <input type="password" class="form-control" id="password-repeat" placeholder="Repita sua senha" required>
-                </div>
-
-                <div class="text-center">
-                    <small>Já tem uma conta ?</small> <a href="requires/menu.php" class="text-success bg-dark"><small>Entrar</small></a>
-                </div>
-
-                <button type="submit" class="btn btn-outline-dark btn-lg btn-block">Inscrever-se</button>
+            <div class="d-flex justify-content-center">
+                <p class="text-justify">Ouça as melhores trilhas sonoras dos jogos</p>
             </div>
 
-        </form>
+            <form class="d-flex justify-content-center">
+
+                <div class="col-md-3">
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite o seu Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Usuário">Usuário</label>
+                        <input type="text" class="form-control" id="name" placeholder="Como chamaremos você ?" required>
+                        <small>Essa não será sua forma de login</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input type="password" class="form-control" id="password" placeholder="Digite sua Senha" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password-repeat">Confirme a senha</label>
+                        <input type="password" class="form-control" id="password-repeat" placeholder="Repita sua senha" required>
+                    </div>
+
+                    <div class="text-center">
+                        <small>Já tem uma conta ?</small> <a href="requires/menu.php" class="text-success bg-dark"><small>Entrar</small></a>
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-dark btn-lg btn-block">Inscrever-se</button>
+                </div>
+
+            </form>
+        </div>
     </div>
 
 

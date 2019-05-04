@@ -1,3 +1,9 @@
+<?php
+include('login.php'); // Includes Login Script
+if(isset($_SESSION['login_user'])){
+header("location: profile.php"); // Redirecting To Profile Page
+}
+?> 
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -29,19 +35,19 @@
             </div>
         </nav>
 
-        <form class="d-flex justify-content-end">
+        <form action="" method="post" class="d-flex justify-content-end">
 
             <div class="col">
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Digite o seu Email" required>
+                    <input type="text" class="form-control" name="username" id="name" placeholder="Digite o seu Email" required>
                 </div>
             </div>
 
             <div class="col">
                 <div class="form-group">
                     <label for="password">Senha</label>
-                    <input type="password" class="form-control" id="password" placeholder="Digite sua Senha" required>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Digite sua Senha" required>
                 </div>
             </div>
 
@@ -50,7 +56,7 @@
                     <small>Não tem conta ?</small> <a href="requires/menu.php" class="text-success bg-dark"><small>Inscrever-se</small></a>
                 </div>
 
-                <button type="submit" class="btn btn-outline-dark btn-lg btn-block">Entrar</button>
+                <button type="submit"  name="submit" value="Login" class="btn btn-outline-dark btn-lg btn-block">Entrar</button>
             </div>
 
         </form>
