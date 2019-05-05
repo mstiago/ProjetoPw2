@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
 
+html{
+    text-transform: uppercase;
+}
+
 header {
     padding: 2ch;
     font-family: 'Cutive Mono', monospace;
@@ -63,7 +67,7 @@ form button:hover {
     transform: scale(1.1);
 }
 
-.text-success {
+.text-monospace{
     color: #fff;
 }
 

@@ -3,7 +3,7 @@ include('login.php'); // Includes Login Script
 if(isset($_SESSION['login_user'])){
 header("location: profile.php"); // Redirecting To Profile Page
 }
-?> 
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -14,7 +14,7 @@ header("location: profile.php"); // Redirecting To Profile Page
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/login.css">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -53,10 +53,10 @@ header("location: profile.php"); // Redirecting To Profile Page
 
             <div class="col">
                 <div class="text-center">
-                    <small>Não tem conta ?</small> <a href="requires/menu.php" class="text-success bg-dark"><small>Inscrever-se</small></a>
+                    <small>Não tem conta ?</small> <a href="requires/menu.php" class="text-monospace"><small>Inscrever-se</small></a>
                 </div>
 
-                <button type="submit"  name="submit" value="Login" class="btn btn-outline-dark btn-lg btn-block">Entrar</button>
+                <button type="submit" name="submit" value="Login" class="btn btn-outline-dark btn-lg btn-block">Entrar</button>
             </div>
 
         </form>
@@ -66,17 +66,109 @@ header("location: profile.php"); // Redirecting To Profile Page
 
 <body>
 
-    <div class="container-fluid cadastro">
+    <div class="container-fluid login-resumo">
 
         <div class="container">
-            
-            <div class="row">
-                <i class="fas fa-home"></i> <p>Com o Soundtrack Ouça a sua soundtrack aonde quiser</p>
-                <h1></h1>
+
+            <div class="d-flex justify-content-center">
+
+                <h1 class="display-4">Você um só com o mundo digital</h1>
+
+            </div>
+
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card" width="100px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Soundtrack 1</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="imagens/02.jpg" alt="Imagem de capa do card" width="100px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Soundtrack </h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card" width="100px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Soundtrack 3</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="imagens/04.jpg" alt="Imagem de capa do card" width="100px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Soundtrack 3</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card" width="100px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Soundtrack 1</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="imagens/02.jpg" alt="Imagem de capa do card" width="100px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Soundtrack </h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card" width="100px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Soundtrack 3</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="imagens/04.jpg" alt="Imagem de capa do card" width="100px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Soundtrack 3</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+
+                <button type="submit" name="submit" class="btn btn-outline-dark">Explore as melhores trilhas sonoras do mundo</button>
+
             </div>
 
         </div>
 
+    </div>
+    <div class="jumbotron jumbotron-fluid faixa">
+        <div class="container">
+            <h1 class="display-4">Você um só com o mundo digital</h1>
+            <p class="lead">Entre na Soundtrack para conectar-se ao seu game favorito, você e seu game um só. Afinal ? O que você ta esperando ?</p>
+        </div>
     </div>
 
 

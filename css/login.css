@@ -7,6 +7,7 @@ header {
     border-bottom: solid 1ch; 
     background: #833ab4;
     background: linear-gradient(90deg, #c04848 0%, #480048 100%);
+    text-transform: uppercase;
 }
 
 .logo-cadastro a{
@@ -23,7 +24,6 @@ body{
     font-size: 150%;
     font-family: 'Alfa Slab One', cursive;
     border-radius: 5ch;
-    padding: 0.8ch;
     color: #fff;
     margin-top: -3ch;
 }
@@ -31,7 +31,6 @@ body{
 .cadastro {
     font-size: 110%;
     font-family: 'Cutive Mono', monospace;
-    padding: 5em;
 }
 
 label, .text-center small, .form-group small {
@@ -44,51 +43,27 @@ label, .text-center small, .form-group small {
 }
 
 form button {
-    background: #fff;
     border-radius: 2ch !important;
-    border: solid 0.1em #fff !important;
     color: #fff !important;
-    
-    background: #833ab4;
     background: linear-gradient(90deg, #c04848 0%, #480048 100%) !important;
 }
 
 form button:hover{
-    color: #100e17 !important;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
-.text-success{
-    border-radius: 0.5ch;
-    padding: 0.1ch;
+.text-monospace {
     color: #fff;
-
-    animation-name: cadastro-botao;
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
-    animation-delay: 0.2;
-}
-.text-success:hover{
-    border-radius: 0.5ch;
-    padding: 0.1ch;
-    color: #fff;
-
-    animation-name: cadastro-botao;
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
-    animation-delay: 0.2;
 }
 
 .container {
     padding: 3ch !important;
 }
 
-.card{
-    margin: 3ch;
-    padding: 2ch;
-}
-
-.card-img{
-    border-radius: 50ch !important;
+.jumbotron{
+    background: linear-gradient(90deg, #c04848 0%, #480048 100%) !important;
+    color: #fff;
 }
 
 @keyframes cadastro-botao {
