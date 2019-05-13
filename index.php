@@ -14,7 +14,7 @@ header("location: profile.php"); // Redirecting To Profile Page
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/login.css">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -22,7 +22,6 @@ header("location: profile.php"); // Redirecting To Profile Page
 
     <title>Soundtrack || Inscrever-se</title>
 </head>
-
 <header>
     <div class="row">
         <nav class="navbar navbar-light">
@@ -35,33 +34,32 @@ header("location: profile.php"); // Redirecting To Profile Page
             </div>
         </nav>
 
-        <form action="" method="post" class="d-flex justify-content-end">
-
-            <div class="col">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" class="form-control" name="username" id="name" placeholder="Digite o seu Email" required>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="form-group">
-                    <label for="password">Senha</label>
-                    <input type="password" class="form-control" name="password" id="password" placeholder="Digite sua Senha" required>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="text-center">
-                    <small>Não tem conta ?</small> <a href="requires/menu.php" class="text-monospace"><small>Inscrever-se</small></a>
-                </div>
-
-                <button type="submit" name="submit" value="Login" class="btn btn-outline-dark btn-lg btn-block">Entrar</button>
-            </div>
-
-        </form>
-
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery(window).scroll(function() {
+                if (jQuery(this).scrollTop() > 400) {
+                    $("#menu").addClass("menu-diferente");
+                } else {
+                    $("#menu").removeClass("menu-diferente");
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery(window).scroll(function() {
+                if (jQuery(this).scrollTop() > 400) {
+                    $("#menu").css('background-color', 'rgba(30,156,161,1)');
+                } else {
+                    $("#menu").css('background-color', 'rgba(30,156,161,0.6)');
+                }
+            });
+        });
+    </script>
 </header>
 
 <body>
@@ -69,105 +67,61 @@ header("location: profile.php"); // Redirecting To Profile Page
     <div class="container-fluid login-resumo">
 
         <div class="container">
-
-            <div class="d-flex justify-content-center">
-
-                <h1 class="display-4">Você um só com o mundo digital</h1>
-
-            </div>
-
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card" width="100px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Soundtrack 1</h5>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagens/01.jpg" alt="Primeiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>FAÇA LOGIN</h5>
+                            <p>OU FAÇA CADASTLO</p>
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/02.jpg" alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>FAÇA LOGIN</h5>
+                            <p>OU FAÇA CADASTLO</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="imagens/02.jpg" alt="Imagem de capa do card" width="100px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Soundtrack </h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card" width="100px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Soundtrack 3</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="imagens/04.jpg" alt="Imagem de capa do card" width="100px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Soundtrack 3</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card" width="100px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Soundtrack 1</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="imagens/02.jpg" alt="Imagem de capa do card" width="100px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Soundtrack </h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card" width="100px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Soundtrack 3</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="imagens/04.jpg" alt="Imagem de capa do card" width="100px" height="180px">
-                    <div class="card-body">
-                        <h5 class="card-title">Soundtrack 3</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/03.jpg" alt="Terceiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>FAÇA LOGIN</h5>
+                            <p> <a href="cadastro.php>">OU FAÇA CADASTLO</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="d-flex justify-content-center">
 
-                <button type="submit" name="submit" class="btn btn-outline-dark">Explore as melhores trilhas sonoras do mundo</button>
+                <button type="submit" name="submit" class="btn btn-outline-dark">OTALIO</button>
 
             </div>
 
         </div>
-
     </div>
     <div class="jumbotron jumbotron-fluid faixa">
         <div class="container">
             <h1 class="display-4">Você um só com o mundo digital</h1>
             <p class="lead">Entre na Soundtrack para conectar-se ao seu game favorito, você e seu game um só. Afinal ? O que você ta esperando ?</p>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <h1 class="display-4">Vai toma no cu e cadastra logo essa porra</h1>
+    </div>
+
+    <div class="container grupo-cadastro">
+        <div class="faixa-cadastro">
+            <div class="container">
+                <p class="lead">Entre na Soundtrack para conectar-se ao seu game favorito, você e seu game um só. Afinal ? O que você ta esperando ?</p>
+            </div>
         </div>
     </div>
 

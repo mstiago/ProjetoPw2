@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
 
+header, body{
+    background: #100e17 !important;
+}
+
 header {
     padding: 2ch;
     font-family: 'Cutive Mono', monospace;
-    border-bottom: solid 1ch; 
-    background: #833ab4;
-    background: linear-gradient(90deg, #c04848 0%, #480048 100%);
+    border-bottom: solid 1ch;
     text-transform: uppercase;
+    border-image: linear-gradient(90deg, #c04848 0%, #480048 100%);
+    border-image-slice: 1;
+    
 }
 
 .logo-cadastro a{
     font-family: "Arial",sans-serif;
     font-size: 3ch;
     color: #fff !important;
-}
-
-body{
-    background: #100e17 !important;
 }
 
 .text-justify {
@@ -64,6 +65,10 @@ form button:hover{
 .jumbotron{
     background: linear-gradient(90deg, #c04848 0%, #480048 100%) !important;
     color: #fff;
+}
+
+.faixa-cadastro{
+    background-color: #fff !important;
 }
 
 @keyframes cadastro-botao {
