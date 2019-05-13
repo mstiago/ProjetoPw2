@@ -1,9 +1,3 @@
-<?php
-include('login.php'); // Includes Login Script
-if(isset($_SESSION['login_user'])){
-header("location: profile.php"); // Redirecting To Profile Page
-}
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,7 +7,7 @@ header("location: profile.php"); // Redirecting To Profile Page
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -35,36 +29,11 @@ header("location: profile.php"); // Redirecting To Profile Page
         </nav>
 
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-
-    <script type="text/javascript">
-        jQuery(function() {
-            jQuery(window).scroll(function() {
-                if (jQuery(this).scrollTop() > 400) {
-                    $("#menu").addClass("menu-diferente");
-                } else {
-                    $("#menu").removeClass("menu-diferente");
-                }
-            });
-        });
-    </script>
-    <script type="text/javascript">
-        jQuery(function() {
-            jQuery(window).scroll(function() {
-                if (jQuery(this).scrollTop() > 400) {
-                    $("#menu").css('background-color', 'rgba(30,156,161,1)');
-                } else {
-                    $("#menu").css('background-color', 'rgba(30,156,161,0.6)');
-                }
-            });
-        });
-    </script>
 </header>
 
 <body>
 
-    <div class="container-fluid login-resumo">
+    <div class="container-fluid carrosel-index">
 
         <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -106,22 +75,23 @@ header("location: profile.php"); // Redirecting To Profile Page
 
         </div>
     </div>
-    <div class="jumbotron jumbotron-fluid faixa">
-        <div class="container">
+    
+    <div class="container itens-index">
+    
+        <ul class="lista-index">
+          <li><i class="fas fa-chevron-right"></i>Comple Pastel, Agola Mesmo</li>
+          <li><i class="fas fa-chevron-right"></i>O melor Pastel da legiao</li>
+          <li><i class="fas fa-chevron-right"></i>OOO flango gostoso ne ?</li>
+          <li><i class="fas fa-chevron-right"></i>HEHEHE</li>
+          <li><i class="fas fa-chevron-right"></i>PASTEL</li>
+        </ul>
+        
+    </div>
+    
+        <div class="jumbotron faixa">
+            <div class="container">
             <h1 class="display-4">Você um só com o mundo digital</h1>
             <p class="lead">Entre na Soundtrack para conectar-se ao seu game favorito, você e seu game um só. Afinal ? O que você ta esperando ?</p>
-        </div>
-    </div>
-
-    <div class="d-flex justify-content-center">
-        <h1 class="display-4">Vai toma no cu e cadastra logo essa porra</h1>
-    </div>
-
-    <div class="container grupo-cadastro">
-        <div class="faixa-cadastro">
-            <div class="container">
-                <p class="lead">Entre na Soundtrack para conectar-se ao seu game favorito, você e seu game um só. Afinal ? O que você ta esperando ?</p>
-            </div>
         </div>
     </div>
 
