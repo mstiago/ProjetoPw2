@@ -1,36 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
-    background: #000 !important;
+    background: #f9f9f9; !important;
+    color: #32323d !important;
 }
 
-section{
-    font-family: 'Roboto', sans-serif;
+.sec-carrosel .display-5{
+    font-size: 300%;
+    color: #32323d !important;
 }
 
-header , .jumbotron{
-    padding: 2ch;
-    text-transform: uppercase;
-    background: #000 !important;
+.texto-index{
+    color: #2692b7;
+    font-size: 250%;
+}
+
+.sec-carrosel .btn{
+    border-radius: 5ch;
+    border: 0.2ch solid #2692b7;
+    background-color: #2692b7;
+}
+
+.sec-carrosel .entrar{
+    background-color: #fff;
+    color: #2692b7;
 }
 
 .sec-lista-index{
-    margin: 7ch;
-    padding: 1ch;
+    background: #f9f9f9;
+    padding: 5ch !important;
 }
 
-.sec-lista-index ul li{
-    background: #000000 !important;
-    color: #fff;
-    font-size: 120%;
+.sec-lista-index .display-5{
+    text-transform: capitalize;
+    color: #2692b7;
+    margin-bottom: 3ch;
+}
+
+.sec-lista-index ul li h3{
+    font-size: 200%;
+    color: #32323d;
+    font-weight: bold;
 }
 
 .sec-lista-index ul li p{
-    color: #888888 !important;
+    margin-top: 3ch;
+    margin-bottom: 3ch;
+    color: #32323d;
 }
 
+.sec-faixa .jumbotron{
+    background: #2692b7;
+    color: #f9f9f9;
+}
 
-.jumbotron{
-    background: #609 !important;
-    color: #fff;
+.sec-faixa .jumbotron .display-4{
+    font-weight: bold;
 }

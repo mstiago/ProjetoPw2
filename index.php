@@ -18,65 +18,20 @@
 </head>
 
 <section class="sec-cabecalho">
-    <header>
-        <div class="row">
-            <div class="col logo-cadastro">
-                <a class="navbar-brand" href="#">
-                    <i class="fas fa-gamepad"></i>
-                    Soundtrack
-                    <i class="fas fa-headphones"></i>
-                </a>
-            </div>
-
-            <ul class="nav justify-content-end col">
-                <li class="nav-item">
-                    <a class="btn btn-dark" href="#">Inscreva-se</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-dark" href="#">Entrar</a>
-                </li>
-            </ul>
-        </div>
-    </header>
 </section>
 
 <body>
 
     <section class="sec-carrosel">
         <div class="container">
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="imagens/01.jpg" alt="Imagem do card">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Que tal ouvir as melhores trilhas sonoras dos games ?</h5>
-                    <p class="card-text">Pare de enrolar e ouça logo</p>
-                    <a class="btn btn-dark" href="#">Inscreva-se</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sec-lista-index">
-        <div class="container">
             <div class="row">
                 <div class="col">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <h3>Nostalgia</h3>
-                            <p>Mario, Sonic ou TopGear, Ouça as trilha mais nostálgicas dos games.</p>
-                        </li>
-                        <li class="list-group-item">
-                            <h3>Para todos os gostos</h3>
-                            <p>Desde Futebol até God of War, para todos os tipos de gostos.</p>
-                        </li>
-                        <li class="list-group-item">
-                            <h3>Um mundo Gamer com você</h3>
-                            <p>Embarque no universo do seu jogo favorito.</p>
-                        </li>
-                        <li class="list-group-item">
-                            <h3>Feito para Você, Gamer apaixonado</h3>
-                            <p>As músicas da sua infância a seu alcance.</p>
-                        </li>
-                    </ul>
+                    <h1 class="display-5">Ouça sua trilha sonora a qualquer momento, quando quiser.</h1>
+                    <p class="texto-index">Experimente agora e ouça a trilha sonora do seu game favorito.</p>
+                    <div class="row">
+                        <a href="#" class="btn btn-info">Inscreva-se</a>
+                        <a href="#" class="entrar btn btn-info">Entrar</a>
+                    </div>
                 </div>
                 <div class="col">
                     <div class="w-25 p-3" alt="Lucio">
@@ -87,78 +42,39 @@
         </div>
     </section>
 
-    <section class="sec-card">
-        <div class="container">
-            
-            <div class="alert alert-dark" role="alert">
-                <span class="d-flex justify-content-center">Escolha uma música</span>
-            </div>
-            
-            <div class="card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
-                    <div class="card-footer">
-                        <small class="text-muted">Nome da Soudtrack</small>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
-                    <div class="card-footer">
-                        <small class="text-muted">Nome da Soundtrack</small>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
-                    <div class="card-footer">
-                        <small class="text-muted">Soundtrack</small>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
-                    <div class="card-footer">
-                        <small class="text-muted">Nome da Soudtrack</small>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
-                    <div class="card-footer">
-                        <small class="text-muted">Nome da Soundtrack</small>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
-                    <div class="card-footer">
-                        <small class="text-muted">Soundtrack</small>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-
     <section class="sec-lista-index">
         <div class="container">
             <div class="row">
                 <div class="col">
+                    <h1 class="display-5">O porque usar?</h1>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <h3>E curta como quiser</h3>
-                            <p>Inscreva-se logo e venha para o universo gamer.</p>
+                        <li>
+                            <h3>Nostalgia</h3>
+                            <p>Mario, Sonic ou TopGear, Ouça as trilha mais nostálgicas dos games.</p>
+                        </li>
+                        <li>
+                            <h3>Para todos os gostos</h3>
+                            <p>Desde Futebol até God of War, para todos os tipos de gostos.</p>
+                        </li>
+                        <li>
+                            <h3>Um mundo Gamer com você</h3>
+                            <p>Embarque no universo do seu jogo favorito.</p>
+                        </li>
+                        <li>
+                            <h3>Feito para Você, Gamer apaixonado</h3>
+                            <p>As músicas da sua infância a seu alcance.</p>
                         </li>
                     </ul>
                 </div>
-                <div class="col">
-                    <div class="w-25 p-3" alt="Lucio">
-                        <img src="imagens/sonic-index">
-                    </div>
-                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-faixa">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Escolha o melhor pra você</h1>
+                <p class="lead"> E curta suas músicas quando quiser </p>
             </div>
         </div>
     </section>
@@ -209,6 +125,78 @@
                             dk,mkfmaikfnmksandknsakdnkasd
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-rodape">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col">
+                    <ul class="nav-rodape">
+                        <li class="rodape-titulo">
+                            <p>Sobre nós</p>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Etec</a>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Projeto 2°Semestre</a>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Camargo Aranha</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="nav-rodape">
+                        <li class="rodape-titulo">
+                            <p>Sobre nós</p>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Etec</a>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Projeto 2°Semestre</a>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Camargo Aranha</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="nav-rodape">
+                        <li class="rodape-titulo">
+                            <p>Sobre nós</p>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Etec</a>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Projeto 2°Semestre</a>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Camargo Aranha</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="nav-rodape">
+                        <li class="rodape-titulo">
+                            <p>Sobre nós</p>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Etec</a>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Projeto 2°Semestre</a>
+                        </li>
+                        <li class="rodape-item">
+                            <a href="#">Camargo Aranha</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
