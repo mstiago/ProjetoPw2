@@ -87,19 +87,14 @@
         </div>
     </section>
 
-    <section class="sec-faixa-index">
-        <div class="jumbotron faixa">
-            <div class="container">
-                <h1 class="display-4">É só você se cadastrar</h1>
-                <p class="lead">Escolher uma trilha sonora.</p>
-            </div>
-        </div>
-    </section>
-
     <section class="sec-card">
         <div class="container">
+            
+            <div class="alert alert-dark" role="alert">
+                <span class="d-flex justify-content-center">Escolha uma música</span>
+            </div>
+            
             <div class="card-deck">
-
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
                     <div class="card-footer">
@@ -118,6 +113,50 @@
                     <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
                     <div class="card-footer">
                         <small class="text-muted">Soundtrack</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-deck">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
+                    <div class="card-footer">
+                        <small class="text-muted">Nome da Soudtrack</small>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
+                    <div class="card-footer">
+                        <small class="text-muted">Nome da Soundtrack</small>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
+                    <div class="card-footer">
+                        <small class="text-muted">Soundtrack</small>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="sec-lista-index">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h3>E curta como quiser</h3>
+                            <p>Inscreva-se logo e venha para o universo gamer.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="w-25 p-3" alt="Lucio">
+                        <img src="imagens/sonic-index">
                     </div>
                 </div>
             </div>
