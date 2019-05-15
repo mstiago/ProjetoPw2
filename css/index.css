@@ -18,12 +18,23 @@ body{
 .sec-carrosel .btn{
     border-radius: 5ch;
     border: 0.2ch solid #2692b7;
-    background-color: #2692b7;
+    background: #2692b7;
+    margin-left: 1ch;
 }
 
 .sec-carrosel .entrar{
-    background-color: #fff;
+    background: #fff;
     color: #2692b7;
+}
+
+.sec-carrosel .inscrever:hover{
+    background: #FFF;
+    color: #2692b7;
+}
+
+.sec-carrosel .entrar:hover{
+    background: #2692b7;
+    color: #fff;
 }
 
 .sec-lista-index{
@@ -56,4 +67,40 @@ body{
 
 .sec-faixa .jumbotron .display-4{
     font-weight: bold;
+}
+
+.sec-carrosel{
+    margin: 5ch;
+}
+
+.carousel-control-prev span{
+    background-image: url(../svg/anterior.svg);
+    background-size: 10ch;
+}
+
+.carousel-control-next span{
+    background-image: url(../svg/proximo.svg);
+    background-size: 10ch;
+}
+
+.sec-rodape .nav-rodape .rodape-titulo{
+    color: #2692b7;
+    font-weight: bold;
+    font-size: 110%;
+    text-transform: capitalize;
+}
+
+.sec-rodape .nav-rodape .rodape-item{
+    margin-top: 1ch;
+}
+
+.sec-rodape .nav-rodape .rodape-item a{
+    text-decoration: none;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+footer{
+    background: #32323d;
+    padding: 5ch !important;
 }

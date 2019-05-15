@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <title>Soundtrack || Inscrever-se</title>
+    <title>Soundtrack || Index</title>
 </head>
 
 <section class="sec-cabecalho">
@@ -29,7 +29,7 @@
                     <h1 class="display-5">Ouça sua trilha sonora a qualquer momento, quando quiser.</h1>
                     <p class="texto-index">Experimente agora e ouça a trilha sonora do seu game favorito.</p>
                     <div class="row">
-                        <a href="#" class="btn btn-info">Inscreva-se</a>
+                        <a href="#" class="inscrever btn btn-info">Inscreva-se</a>
                         <a href="#" class="entrar btn btn-info">Entrar</a>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1 class="display-5">O porque usar?</h1>
+                    <h1 class="display-5">porque usar?</h1>
                     <ul class="list-group list-group-flush">
                         <li>
                             <h3>Nostalgia</h3>
@@ -79,127 +79,210 @@
         </div>
     </section>
 
-    <section class="sec-frequentes">
-        <div class="container">
+    <section class="sec-carrosel">
 
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Grupo de itens colapsável #1
-                            </button>
-                        </h5>
-                    </div>
+        <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
 
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                            dk,mkfmaikfnmksandknsakdnkasd
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Grupo de itens colapsável #2
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            dk,mkfmaikfnmksandknsakdnkasd
+                
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Grupo de itens colapsável #3
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                            dk,mkfmaikfnmksandknsakdnkasd
+                
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                <div class="card-footer">
+                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
         </div>
+
     </section>
 
     <section class="sec-rodape">
-        <div class="container-fluid">
+        <footer>
+            <div class="container-fluid">
 
-            <div class="row">
-                <div class="col">
-                    <ul class="nav-rodape">
-                        <li class="rodape-titulo">
-                            <p>Sobre nós</p>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Etec</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Projeto 2°Semestre</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Camargo Aranha</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="nav-rodape">
-                        <li class="rodape-titulo">
-                            <p>Sobre nós</p>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Etec</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Projeto 2°Semestre</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Camargo Aranha</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="nav-rodape">
-                        <li class="rodape-titulo">
-                            <p>Sobre nós</p>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Etec</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Projeto 2°Semestre</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Camargo Aranha</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="nav-rodape">
-                        <li class="rodape-titulo">
-                            <p>Sobre nós</p>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Etec</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Projeto 2°Semestre</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Camargo Aranha</a>
-                        </li>
-                    </ul>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <ul class="nav-rodape">
+                            <li class="rodape-titulo">
+                                <p>Sobre nós</p>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Etec</a>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Projeto 2°Semestre</a>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Camargo Aranha</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="nav-rodape">
+                            <li class="rodape-titulo">
+                                <p>Desenvolvedores</p>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Tiago Matos</a>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Fernando Lião</a>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Gabriel Chinaglia</a>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Eduardo Baliza</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="nav-rodape">
+                            <li class="rodape-titulo">
+                                <p>Contato</p>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Gtihub do Projeto</a>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Sugerir Trilha sonora</a>
+                            </li>
+                            <li class="rodape-item">
+                                <a href="#">Enviar email</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+        </footer>
     </section>
 
 
