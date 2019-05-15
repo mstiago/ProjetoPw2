@@ -16,84 +16,164 @@
 
     <title>Soundtrack || Inscrever-se</title>
 </head>
-<header>
-    <div class="row">
-        <nav class="navbar navbar-light">
-            <div class="logo-cadastro">
+
+<section class="sec-cabecalho">
+    <header>
+        <div class="row">
+            <div class="col logo-cadastro">
                 <a class="navbar-brand" href="#">
                     <i class="fas fa-gamepad"></i>
                     Soundtrack
                     <i class="fas fa-headphones"></i>
                 </a>
             </div>
-        </nav>
 
-    </div>
-</header>
+            <ul class="nav justify-content-end col">
+                <li class="nav-item">
+                    <a class="btn btn-dark" href="#">Inscreva-se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-dark" href="#">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+</section>
 
 <body>
 
-    <div class="container-fluid carrosel-index">
-
+    <section class="sec-carrosel">
         <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="imagens/01.jpg" alt="Primeiro Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>FAÇA LOGIN</h5>
-                            <p>OU FAÇA CADASTLO</p>
+            <div class="card bg-dark text-white">
+                <img class="card-img" src="imagens/01.jpg" alt="Imagem do card">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Que tal ouvir as melhores trilhas sonoras dos games ?</h5>
+                    <p class="card-text">Pare de enrolar e ouça logo</p>
+                    <a class="btn btn-dark" href="#">Inscreva-se</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-lista-index">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h3>Nostalgia</h3>
+                            <p>Mario, Sonic ou TopGear, Ouça as trilha mais nostálgicas dos games.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h3>Para todos os gostos</h3>
+                            <p>Desde Futebol até God of War, para todos os tipos de gostos.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h3>Um mundo Gamer com você</h3>
+                            <p>Embarque no universo do seu jogo favorito.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h3>Feito para Você, Gamer apaixonado</h3>
+                            <p>As músicas da sua infância a seu alcance.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="w-25 p-3" alt="Lucio">
+                        <img src="imagens/lucio-index01.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-faixa-index">
+        <div class="jumbotron faixa">
+            <div class="container">
+                <h1 class="display-4">É só você se cadastrar</h1>
+                <p class="lead">Escolher uma trilha sonora.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-card">
+        <div class="container">
+            <div class="card-deck">
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
+                    <div class="card-footer">
+                        <small class="text-muted">Nome da Soudtrack</small>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
+                    <div class="card-footer">
+                        <small class="text-muted">Nome da Soundtrack</small>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/03.jpg" alt="Imagem de capa do card">
+                    <div class="card-footer">
+                        <small class="text-muted">Soundtrack</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-frequentes">
+        <div class="container">
+
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Grupo de itens colapsável #1
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            dk,mkfmaikfnmksandknsakdnkasd
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="imagens/02.jpg" alt="Segundo Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>FAÇA LOGIN</h5>
-                            <p>OU FAÇA CADASTLO</p>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Grupo de itens colapsável #2
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            dk,mkfmaikfnmksandknsakdnkasd
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="imagens/03.jpg" alt="Terceiro Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>FAÇA LOGIN</h5>
-                            <p> <a href="cadastro.php>">OU FAÇA CADASTLO</a></p>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Grupo de itens colapsável #3
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            dk,mkfmaikfnmksandknsakdnkasd
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="d-flex justify-content-center">
-
-                <button type="submit" name="submit" class="btn btn-outline-dark">OTALIO</button>
-
-            </div>
-
         </div>
-    </div>
-    
-    <div class="container itens-index">
-    
-        <ul class="lista-index">
-          <li><i class="fas fa-chevron-right"></i>Comple Pastel, Agola Mesmo</li>
-          <li><i class="fas fa-chevron-right"></i>O melor Pastel da legiao</li>
-          <li><i class="fas fa-chevron-right"></i>OOO flango gostoso ne ?</li>
-          <li><i class="fas fa-chevron-right"></i>HEHEHE</li>
-          <li><i class="fas fa-chevron-right"></i>PASTEL</li>
-        </ul>
-        
-    </div>
-    
-        <div class="jumbotron faixa">
-            <div class="container">
-            <h1 class="display-4">Você um só com o mundo digital</h1>
-            <p class="lead">Entre na Soundtrack para conectar-se ao seu game favorito, você e seu game um só. Afinal ? O que você ta esperando ?</p>
-        </div>
-    </div>
+    </section>
 
 
 

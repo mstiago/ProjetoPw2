@@ -1,27 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-header, body{
-    background: #F2F2F2 !important;
+body{
+    background: #000 !important;
 }
 
-header {
+section{
+    font-family: 'Roboto', sans-serif;
+}
+
+header , .jumbotron{
     padding: 2ch;
-    font-family: 'Cutive Mono', monospace;
-    border-bottom: solid 1ch;
     text-transform: uppercase;
-    border-image: linear-gradient(90deg, #c04848 0%, #480048 100%);
-    border-image-slice: 1;
-    
+    background: #000 !important;
 }
 
-.itens-index ul i{
-    Font-size: 400% !important;
-    color:;
-    margin:  0.5ch 0 0.5ch 0;
+.sec-lista-index{
+    margin: 7ch;
+    padding: 1ch;
 }
+
+.sec-lista-index ul li{
+    background: #000000 !important;
+    color: #fff;
+    font-size: 120%;
+}
+
+.sec-lista-index ul li p{
+    color: #888888 !important;
+}
+
 
 .jumbotron{
-    background: linear-gradient(90deg, #c04848 0%, #480048 100%) !important;
+    background: #609 !important;
     color: #fff;
 }
