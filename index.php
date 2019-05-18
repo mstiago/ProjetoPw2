@@ -22,7 +22,7 @@
 
 <body>
 
-    <section class="sec-carrosel">
+    <section class="sec-main">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -80,144 +80,70 @@
     </section>
 
     <section class="sec-carrosel">
+        <div class="container">
+            <div id="controleCarrosel" class="carousel slide carrosel" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="card-deck w-75">
 
-        <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container">
-                        <div class="card-deck">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                <div class="card border-info">
+                                    <a href="#">
+                                        <div class="card-header text-center"><span>Titulo Via PHP/Banco</span></div>
+                                        <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                            <p class="card-text">Descrição/Resumo da Trilha Sonora Via PHP/Banco</p>
+                                        </div>
+                                    </a>
                                 </div>
-                            </div>
 
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                <div class="card border-info">
+                                    <a href="#">
+                                        <div class="card-header text-center"><span>Titulo Via PHP/Banco</span></div>
+                                        <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                            <p class="card-text">Descrição/Resumo da Trilha Sonora Via PHP/Banco</p>
+                                        </div>
+                                    </a>
                                 </div>
-                            </div>
 
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
                             </div>
-
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card-deck w-75">
+                                <div class="card border-info">
+                                    <a href="#">
+                                        <div class="card-header text-center"><span>Titulo Via PHP/Banco</span></div>
+                                        <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                            <p class="card-text">Descrição/Resumo da Trilha Sonora Via PHP/Banco</p>
+                                        </div>
+                                    </a>
                                 </div>
-                            </div>
-                            
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                                <div class="card border-info">
+                                    <a href="#">
+                                        <div class="card-header text-center"><span>Titulo Via PHP/Banco</span></div>
+                                        <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                            <p class="card-text">Descrição/Resumo da Trilha Sonora Via PHP/Banco</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <a class="carousel-control-prev" id="controlador-slide" href="#controleCarrosel" role="button" data-slide="prev">
+                        <span><i class="fas fa-angle-left"></i></span>
+                    </a>
+                    <a class="carousel-control-next" id="controlador-slide" href="#controleCarrosel" role="button" data-slide="next">
+                        <span><i class="fas fa-angle-right"></i></span>
+                    </a>
                 </div>
-                
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="card-deck">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-                            
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="card-deck">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-                            
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                                <div class="card-footer">
-                                    <small class="text-muted">Atualizados 3 minutos atrás</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
         </div>
-
     </section>
 
     <section class="sec-rodape">

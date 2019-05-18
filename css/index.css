@@ -5,7 +5,7 @@ body{
     color: #32323d !important;
 }
 
-.sec-carrosel .display-5{
+.sec-main .display-5{
     font-size: 300%;
     color: #32323d !important;
 }
@@ -15,24 +15,24 @@ body{
     font-size: 250%;
 }
 
-.sec-carrosel .btn{
+.sec-main .btn{
     border-radius: 5ch;
     border: 0.2ch solid #2692b7;
     background: #2692b7;
     margin-left: 1ch;
 }
 
-.sec-carrosel .entrar{
+.sec-main .entrar{
     background: #fff;
     color: #2692b7;
 }
 
-.sec-carrosel .inscrever:hover{
+.sec-main .inscrever:hover{
     background: #FFF;
     color: #2692b7;
 }
 
-.sec-carrosel .entrar:hover{
+.sec-main .entrar:hover{
     background: #2692b7;
     color: #fff;
 }
@@ -69,18 +69,43 @@ body{
     font-weight: bold;
 }
 
-.sec-carrosel{
-    margin: 5ch;
+.carousel-inner{
+    border: solid 1ch;
+    border-style: dashed!important;
+    border-color: #32323d;
+    margin-bottom: 3ch;
 }
 
-.carousel-control-prev span{
-    background-image: url(../svg/anterior.svg);
-    background-size: 10ch;
+.carousel-item{
+    padding: 5ch;
+    background: #f9f9f9;
 }
 
-.carousel-control-next span{
-    background-image: url(../svg/proximo.svg);
-    background-size: 10ch;
+.card{
+    transition: 0.3s;
+}
+
+.card a:link{
+    text-decoration:none; 
+}
+
+.card span{
+    color: #32323d;
+    font-weight: bold;
+}
+
+.card p{
+    color: #32323d;
+    text-transform: capitalize
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+#controlador-slide{
+    color: #2692b7;
+    font-size: 300%;
 }
 
 .sec-rodape .nav-rodape .rodape-titulo{
