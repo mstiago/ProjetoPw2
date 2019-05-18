@@ -5,8 +5,6 @@
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
 
     <!-- Bootstrap CSS -->
@@ -18,6 +16,11 @@
 </head>
 
 <section class="sec-cabecalho">
+
+    <?php
+        require("menu.php");
+    ?>
+
 </section>
 
 <body>
@@ -29,8 +32,7 @@
                     <h1 class="display-5">Ouça sua trilha sonora a qualquer momento, quando quiser.</h1>
                     <p class="texto-index">Experimente agora e ouça a trilha sonora do seu game favorito.</p>
                     <div class="row">
-                        <a href="#" class="inscrever btn btn-info">Inscreva-se</a>
-                        <a href="#" class="entrar btn btn-info">Entrar</a>
+                        <a href="#" class="inscrever btn btn-info">Experimente</a>
                     </div>
                 </div>
                 <div class="col">
@@ -87,7 +89,7 @@
                         <div class="d-flex justify-content-center">
                             <div class="card-deck w-75">
 
-                                <div class="card border-info">
+                                <div class="card">
                                     <a href="#">
                                         <div class="card-header text-center"><span>Titulo Via PHP/Banco</span></div>
                                         <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
@@ -97,7 +99,7 @@
                                     </a>
                                 </div>
 
-                                <div class="card border-info">
+                                <div class="card">
                                     <a href="#">
                                         <div class="card-header text-center"><span>Titulo Via PHP/Banco</span></div>
                                         <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
@@ -113,7 +115,7 @@
                     <div class="carousel-item">
                         <div class="d-flex justify-content-center">
                             <div class="card-deck w-75">
-                                <div class="card border-info">
+                                <div class="card">
                                     <a href="#">
                                         <div class="card-header text-center"><span>Titulo Via PHP/Banco</span></div>
                                         <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
@@ -122,7 +124,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="card border-info">
+                                <div class="card">
                                     <a href="#">
                                         <div class="card-header text-center"><span>Titulo Via PHP/Banco</span></div>
                                         <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
@@ -146,78 +148,26 @@
         </div>
     </section>
 
-    <section class="sec-rodape">
-        <footer>
-            <div class="container-fluid">
-
-                <div class="row">
-                    <div class="col-6">
-                        <div class="row">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <ul class="nav-rodape">
-                            <li class="rodape-titulo">
-                                <p>Sobre nós</p>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Etec</a>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Projeto 2°Semestre</a>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Camargo Aranha</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul class="nav-rodape">
-                            <li class="rodape-titulo">
-                                <p>Desenvolvedores</p>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Tiago Matos</a>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Fernando Lião</a>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Gabriel Chinaglia</a>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Eduardo Baliza</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <ul class="nav-rodape">
-                            <li class="rodape-titulo">
-                                <p>Contato</p>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Gtihub do Projeto</a>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Sugerir Trilha sonora</a>
-                            </li>
-                            <li class="rodape-item">
-                                <a href="#">Enviar email</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </section>
-
-
+    <?php
+        require("rodape.php");
+    ?>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script>
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 40) { // se rolar 40px ativa o evento
+                $("#menu").addClass("ativo"); //coloca a classe "ativo" no id=menu
+            } else {
+                $("#menu").removeClass("ativo"); //se for menor que 40px retira a classe "ativo" do id=menu
+            }
+        });
+    </script>
 </body>
 
 </html>

@@ -1,39 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-
-.navbar{
-    font-family: 'Cutive Mono', monospace;
-    background-color: #050504;;
+#menu {
+    padding: 0.5ch;
+    transition: all 500ms linear;
+    background-color: rgba(38, 146, 183, 0.90)!important;
 }
 
-.nav-item a{
-    color: #d8b389;
-    text-transform: uppercase;
+#menu.ativo{
+    background-color: rgba(0, 0, 0, 0.75) !important;
 }
 
-.nav-item a:hover{
-    color: #ffffff;
+.nav-item a {
+    color: #f9f9f9;
+    font-size: 100%;
+    font-weight: bold;
+    margin: 1ch;
 }
 
-
-li a:hover{
-    animation: mao-animation 0.4s;
-    animation-delay: 0.2;
-}
-
-@keyframes mao-animation {
-  100% {
-    transform: rotate(0deg);
-  }
-  75% {
-    transform: rotate(-1deg);
-  }
-  50%{
-    transform: rotate(-2deg);
-  }
-  25% {
-    transform: rotate(1deg);
-  }
-    0%{
-        transform: rotate(2deg);
-    }
+.nav-item a:hover {
+    color: #32323d;
 }

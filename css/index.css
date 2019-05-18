@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 body{
     background: #f9f9f9; !important;
-    color: #32323d !important;
+}
+
+section{
+    margin-top: 5ch;
 }
 
 .sec-main .display-5{
@@ -20,21 +21,20 @@ body{
     border: 0.2ch solid #2692b7;
     background: #2692b7;
     margin-left: 1ch;
-}
-
-.sec-main .entrar{
-    background: #fff;
-    color: #2692b7;
+    transition: 0.5s;
+    font-weight: bold;
+    padding: 1ch;
 }
 
 .sec-main .inscrever:hover{
     background: #FFF;
     color: #2692b7;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
-.sec-main .entrar:hover{
-    background: #2692b7;
-    color: #fff;
+.sec-lista-index ul{
+    list-style-type: none !important;
 }
 
 .sec-lista-index{
@@ -70,9 +70,10 @@ body{
 }
 
 .carousel-inner{
-    border: solid 1ch;
-    border-style: dashed!important;
+    border: solid 0.5ch;
     border-color: #32323d;
+    border-radius: 0.5ch;
+    box-shadow: 0.1ch 2ch 5ch rgba(0,0,0,0.5);
     margin-bottom: 3ch;
 }
 
@@ -106,26 +107,4 @@ body{
 #controlador-slide{
     color: #2692b7;
     font-size: 300%;
-}
-
-.sec-rodape .nav-rodape .rodape-titulo{
-    color: #2692b7;
-    font-weight: bold;
-    font-size: 110%;
-    text-transform: capitalize;
-}
-
-.sec-rodape .nav-rodape .rodape-item{
-    margin-top: 1ch;
-}
-
-.sec-rodape .nav-rodape .rodape-item a{
-    text-decoration: none;
-    color: #cccccc;
-    font-weight: bold;
-}
-
-footer{
-    background: #32323d;
-    padding: 5ch !important;
 }
