@@ -1,0 +1,84 @@
+.jumbotron {
+    background-color: #225350 !important;
+    border-radius: 0.5ch !important;
+}
+
+.titulo-secao .display-4 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #FFF;
+    text-shadow: #000 0.1ch 0.1ch 0.1ch;
+}
+
+.conteudo {
+    width: 50%;
+    margin: 10ch;
+}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+        -webkit-column-count: 5;
+        column-count: 5;
+    }
+}
+
+.foto-conteudo {
+    overflow: hidden;
+}
+
+.card a img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+.card a:hover img {
+    -webkit-filter: blur(5px);
+    filter: blur(3px);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.card a:hover h6,
+.card a:hover span {
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.card {
+    border-radius: 0 !important;
+}
+
+.tit-conteudo,
+.nome-criadora,
+.data-conteudo {
+    text-align: center !important;
+    text-transform: capitalize;
+    font-size: 110%;
+    color: #cccccc !important;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(50, 50, 61, 0.4);
+    padding: 0.5ch;
+    border-radius: 0.5ch;
+    font-weight: bold;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.tit-conteudo {
+    top: 5%;
+    left: 5%;
+}
+
+.nome-criadora {
+    top: 25%;
+    left: 5%;
+}
+
+.data-conteudo {
+    top: 50%;
+    left: 5%;
+}
