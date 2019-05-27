@@ -1,3 +1,7 @@
+/*Inserção de níveis de usuário*/
+INSERT INTO tbNivelUsuarios VALUES (0,'administrador');
+INSERT INTO tbNivelUsuarios VALUES (1,'usuario');
+
 /*inserção de um usuário com privilégios de administrador*/
 INSERT INTO tbUsuarios VALUES (NULL,'Administrador','admin','admin',
 'admin.soundtrack@gmail.com',0,1,now());
@@ -5,9 +9,12 @@ INSERT INTO tbUsuarios VALUES (NULL,'Administrador','admin','admin',
 INSERT INTO tbUsuarios VALUES (NULL,'Usuario','usuario','usuario',
 'usuario.soundtrack@gmail.com',1,1,now());
 
+/*Inserção de Gêneros de Jogos*/
+INSERT INTO tbGeneros VALUES (NULL,'Esportes');
+INSERT INTO tbGeneros VALUES (NULL,'Ação/Aventura');
 
 /*Inserção de exemplos de jogos com descrição*/
-INSERT INTO tbJogos VALUES (NULL,'Fifa 19','images/fifa19.jpg','EA Sports','2018-09-28',
+INSERT INTO tbJogos VALUES (NULL,'Fifa 19','images/fifa19.jpg','EA Sports','2018-09-28',1,
 'Com tecnologia Frostbite™*, o FIFA 19 oferece a oportunidade de viver a 
 competição entre clubes europeus de maior prestígio do mundo, com a chegada da 
 lendária UEFA Champions League. Seja alcançando a glória máxima de um clube de futebol 
@@ -16,7 +23,7 @@ história de Alex Hunter em A Jornada: Campeões*, a UEFA Champions League faz p
 vários modos do FIFA 19. Saiba mais sobre os recursos e modos de jogo da UEFA Champions 
 League, UEFA Europa League e UEFA Super Cup.');
 
-INSERT INTO tbJogos VALUES (NULL,'Grand Theft Auto V','images/gtav.jpg','Rockstar','2013-10-01',
+INSERT INTO tbJogos VALUES (NULL,'Grand Theft Auto V','images/gtav.jpg','Rockstar','2013-10-01',2,
 'Grand Theft Auto Online é um jogo eletrônico desenvolvido pela Rockstar North 
 e publicado pela Rockstar Games para PlayStation 3 e Xbox 360 em 1 de outubro de 2013 
 e para Playstation 4 e Xbox One em 18 de novembro de 2014. É um jogo multijogador 
