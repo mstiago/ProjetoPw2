@@ -28,6 +28,8 @@ CREATE TABLE tbUsuarios (
       idJogo INT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
       nomeJogo VARCHAR(50) NOT NULL,
       caminhoImg VARCHAR (200),
+      desenvolvedora VARCHAR (40),
+      dtLancamento DATE,
       descricao VARCHAR (2000),
       PRIMARY KEY (idJogo)
   );
@@ -35,8 +37,8 @@ CREATE TABLE tbUsuarios (
 CREATE TABLE tbMusicas (
 	idMusica INT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
 	tituloMusica VARCHAR(50) NOT NULL,
-    artista VARCHAR(50) NOT NULL,
-    caminhoMusica VARCHAR (200),
+    artista VARCHAR(100) NOT NULL,
+    urlMusica VARCHAR (200),
     idJogo INT(5) UNSIGNED NOT NULL,
     PRIMARY KEY (idMusica),
     FOREIGN KEY (idJogo) REFERENCES tbJogos (idJogo)
