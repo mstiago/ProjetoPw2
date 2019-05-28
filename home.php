@@ -18,52 +18,67 @@
 
     <section class="sec-main">
 
-        <div class="conteudo">
+        <div class="titulo-secao">
 
-            <div class="titulo-secao">
-
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                        <h1 class="display-4">últimas Adicionadas</h1>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card-columns">
-                <div class="card">
-                    <div class="foto-conteudo">
-                        <a href="#">
-                            <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                            <h6 class="tit-conteudo">Battlefield 1 Apocalypse</h6>
-                            <span class="nome-criadora">EA Games</span>
-                            <span class="data-conteudo">01/02/2002</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="foto-conteudo">
-                        <a href="#">
-                            <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                            <h6 class="tit-conteudo">Battlefield 1</h6>
-                            <span class="nome-criadora">EA Games</span>
-                            <span class="data-conteudo">01/02/2002</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="foto-conteudo">
-                        <a href="#">
-                            <img class="card-img-top" src="imagens/01.jpg" alt="Imagem de capa do card">
-                            <h6 class="tit-conteudo">Battlefield 1</h6>
-                            <span class="nome-criadora">EA Games</span>
-                            <span class="data-conteudo">01/02/2002</span>
-                        </a>
-                    </div>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">últimas Adicionadas</h1>
                 </div>
             </div>
+
+        </div>
+
+        <div class="card-columns">
+            
+            <div class="card">
+                <div class="conteudo">
+                    <a href="#">
+                        <img class="card-img-top foto-conteudo" src="imagens/01.jpg" />
+                        <div class="info-conteudo">
+                            <div class="info">
+                                <span class="titulo">Battlefield Apocalypse</span>
+                                <span class="data">28 Maio de 2019</span>
+                            </div>
+                            <div class="Descrição">
+                                <p>breve resumo</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="conteudo">
+                    <a href="#">
+                        <img class="card-img-top foto-conteudo" src="imagens/01.jpg" />
+                        <div class="info-conteudo">
+                            <div class="info">
+                                <span class="titulo">Battlefield Apocalypse</span>
+                                <span class="data">28 Maio de 2019</span>
+                            </div>
+                            <div class="Descrição">
+                                <p>breve resumo</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div><div class="card">
+                <div class="conteudo">
+                    <a href="#">
+                        <img class="card-img-top foto-conteudo" src="imagens/01.jpg" />
+                        <div class="info-conteudo">
+                            <div class="info">
+                                <span class="titulo">Battlefield Apocalypse</span>
+                                <span class="data">28 Maio de 2019</span>
+                            </div>
+                            <div class="Descrição">
+                                <p>breve resumo</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
         </div>
 
     </section>

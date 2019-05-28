@@ -5,80 +5,56 @@
 
 .titulo-secao .display-4 {
     font-weight: bold;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
     color: #FFF;
-    text-shadow: #000 0.1ch 0.1ch 0.1ch;
+    text-shadow: 0 0.15ch 0.01ch rgba(34, 34, 34, 0.7);
 }
 
-.conteudo {
-    width: 50%;
-    margin: 10ch;
+.sec-main {
+    width: 70%;
+    margin: 5ch;
 }
 
 .card-columns {
     @include media-breakpoint-only(lg) {
-        -webkit-column-count: 5;
-        column-count: 5;
+        -webkit-column-count: 4;
+        column-count: 4;
     }
 }
 
-.foto-conteudo {
+.conteudo{
+    position: relative;
+    cursor: pointer;
     overflow: hidden;
-}
-
-.card a img {
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
     width: 100%;
-    height: 100%;
 }
 
-.card a:hover img {
-    -webkit-filter: blur(5px);
-    filter: blur(3px);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-}
-
-.card a:hover h6,
-.card a:hover span {
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-    opacity: 1;
-}
-
-.card {
-    border-radius: 0 !important;
-}
-
-.tit-conteudo,
-.nome-criadora,
-.data-conteudo {
-    text-align: center !important;
-    text-transform: capitalize;
-    font-size: 110%;
-    color: #cccccc !important;
+.info-conteudo {
     position: absolute;
+    bottom: -45%;
+    width: 100%;
     opacity: 0;
-    background-color: rgba(50, 50, 61, 0.4);
-    padding: 0.5ch;
-    border-radius: 0.5ch;
-    font-weight: bold;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    color: #f9f9f9;
+    font-family: sans-serif;
+    background: rgba(34, 83, 80, 0.9);
+    
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.tit-conteudo {
-    top: 5%;
-    left: 5%;
+.conteudo:hover .info-conteudo {
+    opacity: 1;
+    bottom: 0;
 }
-
-.nome-criadora {
-    top: 25%;
-    left: 5%;
+.info {
+    border-bottom: 0.5ch solid #f9f9f9;
 }
-
-.data-conteudo {
-    top: 50%;
-    left: 5%;
+.titulo, .data{
+    text-transform: uppercase;
+    font-size: 75%;
+}
+.data {
+    float: right;
 }
