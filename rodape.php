@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="css/rodape.css">
 
 <section class="sec-rodape">
@@ -7,6 +8,11 @@
             <div class="row">
                 <div class="col-6">
                     <div class="row">
+                        <div class="logo-img">
+                            <a href="index.php">
+                               <img src="imagens/logo-soundtrack.png" alt="Logo Soundtrack">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
@@ -15,13 +21,10 @@
                             <p>Sobre nós</p>
                         </li>
                         <li class="rodape-item">
-                            <a href="#">Etec</a>
+                            <a href="https://www.vestibulinhoetec.com.br/home/" target="_blank" >Etec</a>
                         </li>
                         <li class="rodape-item">
-                            <a href="#">Projeto 2°Semestre</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Camargo Aranha</a>
+                            <a href="http://eteccamargoaranha.com.br" target="_blank">Camargo Aranha</a>
                         </li>
                     </ul>
                 </div>
@@ -31,16 +34,16 @@
                             <p>Desenvolvedores</p>
                         </li>
                         <li class="rodape-item">
-                            <a href="#">Tiago Matos</a>
+                            <a>Tiago Matos</a>
                         </li>
                         <li class="rodape-item">
-                            <a href="#">Fernando Lião</a>
+                            <a>Fernando Lião</a>
                         </li>
                         <li class="rodape-item">
-                            <a href="#">Gabriel Chinaglia</a>
+                            <a>Gabriel Chinaglia</a>
                         </li>
                         <li class="rodape-item">
-                            <a href="#">Eduardo Baliza</a>
+                            <a>Eduardo Baliza</a>
                         </li>
                     </ul>
                 </div>
@@ -50,13 +53,7 @@
                             <p>Contato</p>
                         </li>
                         <li class="rodape-item">
-                            <a href="#">Gtihub do Projeto</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Sugerir Trilha sonora</a>
-                        </li>
-                        <li class="rodape-item">
-                            <a href="#">Enviar email</a>
+                            <a href="https://github.com/Tiago2002/ProjetoPw2.git" target="_blank">Gtihub do Projeto</a>
                         </li>
                     </ul>
                 </div>
