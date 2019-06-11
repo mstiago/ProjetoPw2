@@ -15,7 +15,7 @@ CREATE TABLE tbUsuarios (
       senhaUsuario VARCHAR(40) NOT NULL,
       emailUsuario VARCHAR(100) NOT NULL,
       idNivelUsuario INT(1) UNSIGNED NOT NULL DEFAULT '1',
-      ativo BOOL NOT NULL DEFAULT '1',
+      ativo INT(1) UNSIGNED DEFAULT '1',
       dtCadastro DATETIME NOT NULL,
       PRIMARY KEY (idUsuario),
       UNIQUE KEY (tagUsuario),
@@ -58,5 +58,3 @@ CREATE TABLE tbMusicas (
     PRIMARY KEY (idMusica),
     FOREIGN KEY (idJogo) REFERENCES tbJogos (idJogo)
 );
-
-drop database dbProjeto;

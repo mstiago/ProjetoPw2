@@ -1,0 +1,66 @@
+
+#tabela {
+    background-color: #d8d8d8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#tabela h3 {
+    padding-bottom: 1em;
+}
+
+.coluna-btn {
+    width: .5em;
+}
+
+#btn-tabela {
+    padding: 6px 6px!important;
+}
+
+#main h5 {
+    margin-bottom: 50px;
+}
+
+#add {
+    background-color: #cefac8;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.fas.fa-check {
+    color: #00a500;
+}
+
+.fas.fa-times {
+    color: #c80000;
+}
+
+@media (min-width: 1200px){
+    #tabela{
+        max-width: 600px;
+    }
+
+}
+@media (min-width: 1079px){
+    #tabela{
+        max-width: 600px;
+    }
+}
+@media (min-width: 971px){
+    #tabela{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 575px){
+
+#tabela{
+    max-width: 600px;
+}
+
+.col-sm-auto {
+    margin-top: 20px;
+}
+
+}

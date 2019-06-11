@@ -1,0 +1,35 @@
+
+.coluna-btn {
+    width: 2em;
+}
+
+#btn-tabela {
+    padding: 6px 6px!important;
+}
+
+#main h5 {
+    margin-bottom: 50px;
+}
+
+#add {
+    background-color: #cefac8;
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+@media (min-width: 1200px){
+
+#tabela {
+    max-width: 900px;
+}
+
+}
+
+@media (max-width: 575px){
+
+.col-sm-auto {
+    margin-top: 20px;
+}
+
+}
