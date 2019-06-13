@@ -1,0 +1,66 @@
+.sec-jogo{
+    background-color: #006266 !important;
+    display: inline-block;
+    height: 600px;
+}
+
+.img-jogo img{
+    width: 400px;
+    height: 400px;
+    left: 10%;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.infos-jogo{
+    background-color: #fff;
+    color: #616166;
+    width: 800px;
+    padding: 15px;
+    margin-left: -900px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: 100;
+}
+
+.infos-jogo h3, .infos-jogo h6{
+    font-weight: 100;
+    color: #006266;
+}
+
+.sec-musicas{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 300px;
+}
+
+.card{
+    margin-top: 50px;
+}
+
+.card-body h4{
+    font-weight: 100;
+    color: #006266;
+    margin-bottom: 10px;
+}
+
+.card-body p{
+    color: #616166;
+    font-weight: 100;
+}
+
+.card-body a{
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

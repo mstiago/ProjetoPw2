@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/lista.css">
     <link rel="icon" href="imagens/favicon.png">
 
-    <title>Lista de jogos</title>
+    <title>Lista de genêros</title>
   </head>
   <body>
       
@@ -22,17 +22,19 @@
       
         require("menu.php");
       
-      ?>  
+      ?>
       
       <section class="sec-lista-jogos">
           
           <div class="lista-jogos">
               
             <?php
+
+                $generoSelecionado = $_GET['generoSelecionado'];
             
                 require('requires/conexao.php');
 
-                $consultaConteudo= $pdo->query("SELECT * FROM tbJogos ORDER BY nomeJogo DESC");
+                $consultaConteudo= $pdo->query("SELECT * FROM tbJogos where idGenero = $generoSelecionado");
 
                 while ($resultConteudo = $consultaConteudo->fetch(PDO::FETCH_ASSOC)) {	
                     

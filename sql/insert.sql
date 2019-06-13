@@ -1,4 +1,9 @@
- (NULL,'Administrador','admin','admin',
+/*Inserção de níveis de usuário*/
+INSERT INTO tbNivelUsuarios VALUES (0,'administrador');
+INSERT INTO tbNivelUsuarios VALUES (1,'usuario');
+
+/*inserção de um usuário com privilégios de administrador*/
+INSERT INTO tbUsuarios VALUES (NULL,'Administrador','admin','admin',
 'admin.soundtrack@gmail.com',0,1,now());
 /*inserção de um usuário comum*/
 INSERT INTO tbUsuarios VALUES (NULL,'Usuario','usuario','usuario',

@@ -1,8 +1,8 @@
 <?php
 	$servidor = "localhost";
-	$banco = "dbProjeto";
-	$usuario = "admin";
-	$senha = "";	
+	$banco = "dbprojeto";
+	$usuario = "root";
+	$senha = "";
 	
 	$pdo = new PDO("mysql:host=$servidor;dbname=$banco",$usuario,$senha,array(
 		PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, 

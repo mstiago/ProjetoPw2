@@ -1,6 +1,6 @@
 <?php
 session_start();
 if(!$_SESSION['txtUsuario']){
-    header("location: ../index.php");
+    header("location: index.php");
     exit();
 }
