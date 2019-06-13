@@ -1,14 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../css/menu-sidebar.css">
+    
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
     
+    <!--CSS Local-->
+    <link rel="stylesheet" type="text/css" href="../css/musicas.css">
+    <link rel="icon" href="../imagens/favicon.png">
+
     <title>Admin || Dashboard</title>
 </head>
    <body>
@@ -21,13 +29,12 @@
           <h1><i class="fas fa-chart-line"></i> Dashboard</h1>
           <br>
           <section class="container">
-            <div class="table">
-			
+            <div class="card">
               <table class="table">
                 <tr>
-                  <th>Usuários</th>
+                  <th><h3><i class="fas fa-cubes"></i> Usuários</h3></th>
                 </tr>
-                  <?php/*
+                  <?php
                     require('../requires/conexao.php');
 
                     $sql = $pdo->query("SELECT COUNT(idUsuario) FROM tbUsuarios");
@@ -35,10 +42,70 @@
                     $total = $sql->fetchColumn();
 
                     echo "<tr>";
-                    echo "<td>$total</td>";
+                    echo "<td><h1>$total</h1></td>";
                     echo "</tr>";
 
-                    $pdo = null;*/	
+                    $pdo = null;	
+                  ?>
+              </table>
+            </div>
+            <div class="card">
+              <table class="table">
+                <tr>
+                  <th><h3><i class="fas fa-gamepad"></i> Jogos</h3></th>
+                </tr>
+                  <?php
+                    require('../requires/conexao.php');
+
+                    $sql = $pdo->query("SELECT COUNT(idJogo) FROM tbJogos");
+
+                    $total = $sql->fetchColumn();
+
+                    echo "<tr>";
+                    echo "<td><h1>$total</h1></td>";
+                    echo "</tr>";
+
+                    $pdo = null;	
+                  ?>
+              </table>
+            </div>
+            <div class="card">
+              <table class="table">
+                <tr>
+                  <th><h3><i class="fas fa-music"></i> Músicas</h3></th>
+                </tr>
+                  <?php
+                    require('../requires/conexao.php');
+
+                    $sql = $pdo->query("SELECT COUNT(idMusica) FROM tbMusicas");
+
+                    $total = $sql->fetchColumn();
+
+                    echo "<tr>";
+                    echo "<td><h1>$total</h1></td>";
+                    echo "</tr>";
+
+                    $pdo = null;	
+                  ?>
+              </table>
+            </div>
+            <div class="card">
+              <table class="table">
+                <tr>
+                  <th><h3><i class="fas fa-cubes"></i> Gêneros</h3></th>
+                </tr>
+                  <?php
+                    require('../requires/conexao.php');
+
+                    $sql = $pdo->query("SELECT COUNT(idGenero) FROM tbGeneros");
+
+                    $total = $sql->fetchColumn();
+
+                    echo "<tr>";
+                    echo "<td><h1>$total</h1></td>";
+                    echo "</tr>";
+
+                    $pdo = null;	
                   ?>
               </table>
             </div>

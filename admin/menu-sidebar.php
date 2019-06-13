@@ -12,14 +12,14 @@
   <!-- ### Cabeçalho ### -->
   <header class="navbar fixed-top" id="cabecalho">
     <a class="navbar-brand" href="#">
-      <img src="../imagens/random.png" class="rounded float-left" alt="...">
+      <img src="../imagens/Logo-Soundtrack-top.png" class="rounded float-left" alt="SoundTrack">
     </a>
     <ul class="navbar-nav flex-row">
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fa fa-home"></i></a>
+        <a class="nav-link" href="../home.php"><i class="fa fa-home"></i></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i></a>
+        <a class="nav-link" href="../requires/sair-login.php"><i class="fas fa-sign-out-alt"></i></a>
       </li>
     </ul>
   </header>
@@ -54,7 +54,7 @@
                 <a class="nav-link" href="generos.php" id="item"><i class="fas fa-cubes"></i> Gêneros</a><hr>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="usuarios.php" id="item"><i class="fas fa-user-cog"></i>Usuários</a><hr>
+                <a class="nav-link" href="usuarios.php" id="item"><i class="fas fa-user-cog"></i> Usuários</a><hr>
               </li>
             </ul>
         </div>

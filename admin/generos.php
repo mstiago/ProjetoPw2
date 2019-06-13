@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
@@ -11,6 +14,7 @@
     
     <!--CSS Local-->
     <link rel="stylesheet" type="text/css" href="../css/generos.css">
+    <link rel="icon" href="../imagens/favicon.png">
 
     <title>Admin || Generos</title>
 </head>
@@ -19,7 +23,7 @@
          require('menu-sidebar.php');
       ?>
 
-      <div class="col-md-10 ml-sm-auto col-lg-10" id="main">
+      <div class="col-md-10 ml-sm-auto col-lg-10" id="main" style="margin-bottom: 80px">
         <div class="container-fluid">
           <h1><i class="fas fa-cubes"></i> Gêneros</h1><br>
           <h5>Adicione e gerencie os gêneros para categorizar os jogos inseridos no site.</h5>
@@ -27,7 +31,7 @@
         <section class="container" id="tabela">
         <div class="container" id="add">
           <form method="POST" action="genero-adicionar.php">
-          <label><i class="fas fa-plus"></i> Adicionar Gênero</label>
+          <label><h4><i class="fas fa-plus"></i> Adicionar Gênero</h4></label>
             <div class="row">
               <div class="col-sm">
                 <input type="text" name="genero" class="form-control" placeholder="Ex.: Esportes" required>
@@ -48,8 +52,8 @@
                 <tr>
                     <th>#id</th>                    
                     <th>Genero</th>
-                    <th style="width: 10%">Editar</th>
-                    <th style="width: 10%">Excluir</th>
+                    <th style="width: 3em">Editar</th>
+                    <th style="width: 3em">Excluir</th>
                 </tr>
 				<?php
 					require('../requires/conexao.php');
@@ -61,7 +65,7 @@
 							echo "<td>{$resultTbGenero['idGenero']} </td>";
 							echo "<td>{$resultTbGenero['genero']} </td>";
 							echo "<td class='coluna-btn'><a href='?idGenero=$resultTbGenero[idGenero]&genero=$resultTbGenero[genero]' class='btn btn-primary' id='btn-tabela'><i class='far fa-edit'></i></a></td>";
-							echo "<td class='coluna-btn'><a href='genero-excluir.php?idGenero=$resultTbGenero[idGenero]' class='btn btn-danger' id='btn-tabela'><i class='far fa-trash-alt'></i></a></td>";    
+							echo "<td class='coluna-btn'><a href='genero-excluir.php?idGenero=$resultTbGenero[idGenero]' class='btn btn-danger' id='btn-tabela' onclick=\"return confirm('Tem certeza que deseja deletar esse registro?');\"><i class='far fa-trash-alt'></i></a></td>";    
 						echo "</tr>";
 					}
 
@@ -106,6 +110,18 @@
         {
         location.href=" generos.php"
         }
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#btn-tabela").click( function(event) {
+          var apagar = confirm('Deseja realmente excluir este registro?');
+          if (apagar){
+	          // aqui vai a instrução para apagar registro			
+          }else{
+            event.preventDefault();
+          }	
+        });
+      });
     </script>
 
   </body>

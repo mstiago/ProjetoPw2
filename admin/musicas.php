@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
@@ -11,6 +14,7 @@
     
     <!--CSS Local-->
     <link rel="stylesheet" type="text/css" href="../css/musicas.css">
+    <link rel="icon" href="../imagens/favicon.png">
 
     <title>Admin || Músicas</title>
 </head>
@@ -50,7 +54,7 @@
               echo "<td>{$resultTbMusica['urlMusica']} </td>";
               echo "<td>{$resultTbMusica['jogo']} </td>";
 							echo "<td class='coluna-btn'><a href='?idMusica=$resultTbMusica[idMusica]&tituloMusica=$resultTbMusica[tituloMusica]&artista=$resultTbMusica[artista]&urlMusica=$resultTbMusica[urlMusica]&idJogo=$resultTbMusica[idJogo]' class='btn btn-primary' id='btn-tabela'><i class='far fa-edit'></i></a></td>";
-							echo "<td class='coluna-btn'><a href='musica-excluir.php?idMusica=$resultTbMusica[idMusica]' class='btn btn-danger' id='btn-tabela' alt='Excluir'><i class='far fa-trash-alt'></i></a></td>";    
+							echo "<td class='coluna-btn'><a href='musica-excluir.php?idMusica=$resultTbMusica[idMusica]' class='btn btn-danger' id='btn-tabela' onclick=\"return confirm('Tem certeza que deseja deletar esse registro?');\"><i class='far fa-trash-alt'></i></a></td>";    
 						echo "</tr>";
 					}
 

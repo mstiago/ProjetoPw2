@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
@@ -11,6 +14,7 @@
     
     <!--CSS Local-->
     <link rel="stylesheet" type="text/css" href="../css/musicas.css">
+    <link rel="icon" href="../imagens/favicon.png">
 
     <title>Admin || Jogos</title>
 </head>
@@ -52,7 +56,7 @@
               echo "<td>{$resultTbJogo['dtLancamento']} </td>";
               echo "<td>{$resultTbJogo['genero']} </td>";
 							echo "<td class='coluna-btn'><a href='?idJogo=$resultTbJogo[idJogo]&nomeJogo=$resultTbJogo[nomeJogo]&caminhoImg=$resultTbJogo[caminhoImg]&desenvolvedora=$resultTbJogo[desenvolvedora]&dtLancamento=$resultTbJogo[dtLancamento]&descricao=$resultTbJogo[descricao]&idGenero=$resultTbJogo[idGenero]' class='btn btn-primary' id='btn-tabela'><i class='far fa-edit'></i></a></td>";
-							echo "<td class='coluna-btn'><a href='jogo-excluir.php?idJogo=$resultTbJogo[idJogo]' class='btn btn-danger' id='btn-tabela' alt='Excluir'><i class='far fa-trash-alt'></i></a></td>";    
+							echo "<td class='coluna-btn'><a href='jogo-excluir.php?idJogo=$resultTbJogo[idJogo]' class='btn btn-danger' id='btn-tabela' onclick=\"return confirm('Tem certeza que deseja deletar esse registro?');\"><i class='far fa-trash-alt'></i></a></td>";    
 						echo "</tr>";
 					}
 

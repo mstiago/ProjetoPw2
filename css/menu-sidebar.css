@@ -15,7 +15,7 @@
 }
 
 #cabecalho .nav-item a:hover {
-  color: #00c0c0;
+  color: #000;
 }
 /* ## Fim do cabeçalho ## */
 
@@ -28,7 +28,7 @@ body {
   padding-top: 95px;
   position: fixed;
   height: 100%;
-  background-color: #006e72;
+  background-color: #006266;
 }
 
 #menu-lateral a {
@@ -36,7 +36,7 @@ body {
 }
 
 #menu-lateral a:hover{
-  color: #08d1b0;
+  color: #000;
 }
 
 #sticky-sidebar i {

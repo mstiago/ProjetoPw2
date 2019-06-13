@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
@@ -11,6 +14,7 @@
     
     <!--CSS Local-->
     <link rel="stylesheet" type="text/css" href="../css/musicas.css">
+    <link rel="icon" href="../imagens/favicon.png">
 
     <title>Admin || Usuarios</title>
 </head>
@@ -51,7 +55,6 @@
               echo "<td>{$resultTbUsuario['tagUsuario']} </td>";
               echo "<td>{$resultTbUsuario['emailUsuario']} </td>";
               echo "<td>{$resultTbUsuario['nivelUsuario']} </td>";
-              /*echo "<td>{$resultTbUsuario['ativo']} </td>";*/
               if ($resultTbUsuario['ativo'] == '1'){
                 echo "<td style='text-align: center'><i class='fas fa-check'></i></td>";
               }
@@ -60,7 +63,7 @@
               }
               echo "<td>{$resultTbUsuario['dtCadastro']} </td>";
 							echo "<td class='coluna-btn'><a href='?idUsuario=$resultTbUsuario[idUsuario]&nomeUsuario=$resultTbUsuario[nomeUsuario]&tagUsuario=$resultTbUsuario[tagUsuario]&senhaUsuario=$resultTbUsuario[senhaUsuario]&emailUsuario=$resultTbUsuario[emailUsuario]&nivelUsuario=$resultTbUsuario[nivelUsuario]&ativo=$resultTbUsuario[ativo]' class='btn btn-primary' id='btn-tabela'><i class='far fa-edit'></i></a></td>";
-							echo "<td class='coluna-btn'><a href='usuario-excluir.php?idUsuario=$resultTbUsuario[idUsuario]' class='btn btn-danger' id='btn-tabela' alt='Excluir'><i class='far fa-trash-alt'></i></a></td>";    
+							echo "<td class='coluna-btn'><a href='usuario-excluir.php?idUsuario=$resultTbUsuario[idUsuario]' class='btn btn-danger' id='btn-tabela' onclick=\"return confirm('Tem certeza que deseja deletar esse registro?');\"><i class='far fa-trash-alt'></i></a></td>";    
 						echo "</tr>";
 					}
 

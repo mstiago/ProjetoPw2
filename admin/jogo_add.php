@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
@@ -11,6 +14,7 @@
     
     <!--CSS Local-->
     <link rel="stylesheet" type="text/css" href="../css/musicas.css">
+    <link rel="icon" href="../imagens/favicon.png">
 
     <title>Admin || Adicionar Jogos</title>
 </head>
