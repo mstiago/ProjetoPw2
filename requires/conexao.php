@@ -1,6 +1,6 @@
 <?php
 	$servidor = "localhost";
-	$banco = "dbprojeto";
+	$banco = "dbProjeto";
 	$usuario = "root";
 	$senha = "";
 	

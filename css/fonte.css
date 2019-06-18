@@ -1,0 +1,10 @@
+@font-face {
+    src: url(fontes/Orbitron/Orbitron-Regular.ttf);
+    font-family: 'Orbitron';
+} 
+
+.table h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+}

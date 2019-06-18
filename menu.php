@@ -8,7 +8,7 @@
     <ul id="menu" class="nav justify-content-end fixed-top align-items-center">
         <div id="imagem-menu" class="col align-items-center">
             <a class="nav-link" href="#">
-                <img src="imagens/Logo-soundtrack.png" width="150" height="150" class="rounded float-left" alt="...">
+                <img src="imagens/Logo-Soundtrack.png" width="150" height="150" class="rounded float-left" alt="...">
             </a>
         </div>
 
@@ -20,6 +20,9 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="https://github.com/Tiago2002/ProjetoPw2.git" target="_blank">Github</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="admin/index.php" target="_blank">Administração</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="requires/sair-login.php">Sair</a>

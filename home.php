@@ -29,6 +29,7 @@
                 <a class="btn-menu" href="home.php">Inicio</a>
                 <a class="btn-menu" href="lista.php">Jogos</a>
                 <a class="btn-menu" href="https://github.com/Tiago2002/ProjetoPw2.git" target="_blank">Github</a>
+                <a class="btn-menu" href="admin/index.php" target="_blank">Administração</a>
                 <a class="btn-menu" href="requires/sair-login.php">Sair</a>
             </ul>
         </div>

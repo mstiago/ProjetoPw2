@@ -10,7 +10,7 @@
                     <div class="row">
                         <div class="logo-img">
                             <a href="index.php">
-                               <img src="imagens/logo-soundtrack.png" alt="Logo Soundtrack">
+                               <img src="imagens/Logo-Soundtrack.png" alt="Logo Soundtrack">
                             </a>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                             <a>Gabriel Chinaglia</a>
                         </li>
                         <li class="rodape-item">
-                            <a>Eduardo Baliza</a>
+                            <a>Eduardo Belisia</a>
                         </li>
                     </ul>
                 </div>
